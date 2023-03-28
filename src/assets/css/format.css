@@ -1,0 +1,42 @@
+:root {
+  --primary: #0d9b4d;
+  --primary-dark: #0a4a27;
+  --secondary: #d37e43;
+  --secondary-dark: #b36b3a;
+  --text: #484848;
+  --text-light: #6d6d6d;
+  --text-green: #0a4a27;
+  --text-beige: #ffb164;
+  --shadow: rgba(0, 0, 0, 0.16);
+  --shadow-dark: rgba(0, 0, 0, 0.5);
+  --white: #ffffff;
+  --black: #000000;
+  --card: #c6f9ae;
+  --required: #ff7b7b;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text);
+}
+
+a:visited {
+  color: var(--text);
+}
+
+a:hover {
+  color: var(--black);
+  font-weight: 600;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
