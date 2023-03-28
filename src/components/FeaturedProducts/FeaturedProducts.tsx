@@ -1,5 +1,6 @@
 import React from "react"
 import {
+  Background,
   Card,
   CardsContainer,
   Container,
@@ -11,6 +12,7 @@ import {
 import product1 from "@/assets/images/utils/frutos-secos.png"
 import product2 from "@/assets/images/utils/sin-gluten.png"
 import product3 from "@/assets/images/utils/bajo-sodio.png"
+import background from "@/assets/images/backgrounds/background_bar.png"
 
 export interface FeaturedProductsProps {}
 
@@ -38,6 +40,7 @@ const FeaturedProducts: React.FC<FeaturedProductsProps> = () => {
       </FeaturedProductsTitle>
       <Products>
         <CardsContainer>
+          <Background src={background} />
           {PRODUCTS.map(({ title, image }) => (
             <Card key={title}>
               <Title>{title}</Title>

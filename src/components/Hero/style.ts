@@ -4,7 +4,7 @@ import styled from "styled-components"
 export const HeroContainer = styled.section`
   width: 100%;
   height: 100%;
-
+  overflow: hidden;
   margin: auto;
 `
 
@@ -59,7 +59,6 @@ export const ProductsAd = styled.div`
 
   @media (max-width: 679px) {
     bottom: -100px;
-    width: 150%;
   }
 `
 
@@ -86,13 +85,17 @@ export const DirectLink = styled(Link)`
 `
 export const Container = styled.div`
   position: relative;
-  width: 100%;
   margin: auto;
   height: 50%;
   bottom: 50px;
 
+  @media (max-width: 679px) {
+    width: 150%;
+    left: -25%;
+  }
+
   @media (min-width: 680px) {
-    width: 60%;
+    width: 80%;
   }
 `
 
