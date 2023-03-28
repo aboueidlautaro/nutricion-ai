@@ -20,9 +20,10 @@ export const Field = styled.input`
   height: 40px;
   border-radius: 6px;
   border: none;
-  outline: none;
   padding: 0 30px;
-  box-shadow: 0 3px 6px var(--shadow);
+  -moz-box-shadow: 1px 3px 6px var(--shadow);
+  -webkit-box-shadow: 1px 3px 6px var(--shadow);
+  box-shadow: 0px 3px 6px var(--shadow);
 
   &::placeholder {
     color: var(--text-light);
