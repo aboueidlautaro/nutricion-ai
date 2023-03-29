@@ -43,7 +43,7 @@ const Footer: React.FC<FooterProps> = () => {
         </ContactList>
         <Copyrigth>
           Desarrollado por
-          <Author>Lautaro Aboueid</Author>
+          <Author>Lautaro Aboueid, Lucas Riveros</Author>
         </Copyrigth>
       </FooterContent>
     </FooterContainer>
